@@ -1,4 +1,4 @@
-Take some time to explore the repository you have just created. You should be on the repository's Overview page:
+Take some time to explore the repository conflict in master you have just created. You should be on the repository's Overview page:
 
 Repository Overview
 Click + from the global sidebar for common actions for a repository. Click items in the navigation sidebar to see what's behind each one, including Settings to update repository details and other settings. To view the shortcuts available to navigate these items, press the ? key on your keyboard.

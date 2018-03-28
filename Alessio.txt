@@ -1,4 +1,4 @@
-ng to be empty without any code in it. That's okay because you will start adding some files to it soon. This Bitbucket repository will be the central repository for your files, which means that others can access that repository if you give them permission. After creating a repository, you'll copy a version to your local system—that way you can update it from one repo, then transfer those changes to the other.
+Now that you have a HEEEELLLLPPPPPPPPPPPPP!!!!!! place to add and share your space station files, you need a way to get to it from your local system. To set that up, you want to copy the Bitbucket repository to your system. Git refers to copying a repository as "cloning" it. When you clone a repository, you create a connection between the Bitbucket server (which Git knows as origin) and your local system.
 
 Central Repo to Local Repo
 Do the following to create your repository:
@@ -8,6 +8,12 @@ From Bitbucket, click the + icon in the global sidebar and select Repository.
 Create Repo Menu
 
 Bitbucket displays the Create a new repository page. Take some time to review the dialog's contents. With the exception of the Repository type, everything you enter on this page you can later change.
+$ git clone https://emmap1@bitbucket.org/emmap1/bitbucketstationlocations.git
+Cloning into 'bitbucketstationlocations'...
+Password
+warning: You appear to have cloned an empty repository.
+You already knew that your repository was empty right? Remember that you have added no source files to it yet.
+List the contents of your repos directory and you should see your bitbucketstationlocations directory in it.
 
 Create the repository
 Enter BitbucketStationLocations for the Name field. Bitbucket uses this Name in the URL of the repository. For example, if the user the_best has a repository called awesome_repo, the URL for that repository would be https://bitbucket.org/the_best/awesome_repo.

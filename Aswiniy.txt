@@ -1,3 +1,7 @@
+
+top10 = round(test_df_new1.shape[0]*.1)
+top10_Olmp =test_df_new1.nlargest(top10, 'Olympic_Park')
+top10_OlmpEst = test_df_new1.nlargest(top10, 'OlymParkEst')
 Initially, the repository you create in Bitbucket is going to be empty without any code in it. That's okay because you will start adding some files to it soon. This Bitbucket repository will be the central repository for your files, which means that others can access that repository if you give them permission. After creating a repository, you'll copy a version to your local system—that way you can update it from one repo, then transfer those changes to the other.
 
 Central Repo to Local Repo

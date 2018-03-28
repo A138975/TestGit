@@ -1,4 +1,4 @@
-Now that you have a place to add and share your space station files, you need a way to get to it from your local system. To set that up, you want to copy the Bitbucket repository to your system. Git refers to copying a repository as "cloning" it. When you clone a repository, you create a connection between the Bitbucket server (which Git knows as origin) and your local system.
+Now that you have a HEEEELLLLPPPPPPPPPPPPP!!!!!! place to add and share your space station files, you need a way to get to it from your local system. To set that up, you want to copy the Bitbucket repository to your system. Git refers to copying a repository as "cloning" it. When you clone a repository, you create a connection between the Bitbucket server (which Git knows as origin) and your local system.
 
 Origin to Local
 You are about to use a whole bunch of Git and non-Git commands from a terminal. If you've never used the command line before, learn where to find it at The Command Line Crash Course.

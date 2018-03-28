@@ -3,7 +3,8 @@ Initially, the repository you create in Bitbucket is going to be empty without a
 Central Repo to Local Repo
 Do the following to create your repository:
 
-From Bitbucket, click the + icon in the global sidebar and select Repository. test conflict
+
+From Bitbucket, click the + icon in the global sidebar and select Repository. test conflic
 
 Create Repo Menu
 

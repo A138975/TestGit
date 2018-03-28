@@ -1,6 +1,16 @@
-Take some time to explore the repository conflict in master you have just created. You should be on the repository's Overview page:
+Initially, the repository you create in Bitbucket is going to be empty without any code in it. That's okay because you will start adding some files to it soon. This Bitbucket repository will be the central repository for your files, which means that others can access that repository if you give them permission. After creating a repository, you'll copy a version to your local system—that way you can update it from one repo, then transfer those changes to the other.
 
-Repository Overview
-Click + from the global sidebar for common actions for a repository. Click items in the navigation sidebar to see what's behind each one, including Settings to update repository details and other settings. To view the shortcuts available to navigate these items, press the ? key on your keyboard.
+Central Repo to Local Repo
+Do the following to create your repository:
 
-When you click the Commits option in the sidebar, you find that you have no commits because you have not created any content for your repository. Your repository is private and you have not invited anyone to the repository, so the only person who can create or edit the repository's content right now is you, the repository owner.
+From Bitbucket, click the + icon in the global sidebar and select Repository.
+
+Create Repo Menu
+
+Bitbucket displays the Create a new repository page. Take some time to review the dialog's contents. With the exception of the Repository type, everything you enter on this page you can later change.
+
+Create the repository
+Enter BitbucketStationLocations for the Name field. Bitbucket uses this Name in the URL of the repository. For example, if the user the_best has a repository called awesome_repo, the URL for that repository would be https://bitbucket.org/the_best/awesome_repo.
+For Access level, leave the This is a private repository box checked. A private repository is only visible to you and those you give access to. If this box is unchecked, everyone can see your repository.
+Pick Git for the Repository type. Keep in mind that you can't change the repository type after you click Create repository.
+Click Create repository. Bitbucket creates your repository and displays its Overview page.

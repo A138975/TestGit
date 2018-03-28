@@ -2,10 +2,60 @@ Now that you have a HEEEELLLLPPPPPPPPPPPPP!!!!!! place to add and share your spa
 
 Central Repo to Local Repo
 Do the following to create your repository:
+Origin to Local
+You are about to use a whole bunch of Git and non-Git commands from a terminal. If you've never used the command line before, learn where to find it at The Command Line Crash Course.
 
 From Bitbucket, click the + icon in the global sidebar and select Repository.
 
 Create Repo Menu
+Step 1. Clone your repository to your local system
+Open a browser and a terminal window from your desktop. After opening the terminal window, do the following:
+
+Navigate to your home (~) directory.
+
+$ cd ~
+As you use Bitbucket more, you will probably work in multiple repositories. For that reason, it's a good idea to create a directory to contain all those repositories.
+Create a directory to contain your repositories.
+
+$ mkdir repos
+From the terminal, update the directory you want to work in to your new repos directory.
+
+$ cd ~/repos
+From Bitbucket, go to your BitbucketStationLocations repository.
+Click the + icon in the global sidebar and select Clone this repository.
+
+Bitbucket displays a pop-up clone dialog. By default, the clone dialog sets the protocol to HTTPS or SSH, depending on your settings. For the purposes of this tutorial, don't change your default protocol.
+
+ 
+
+Clone dialog
+ 
+Copy the highlighted clone command.
+From your terminal window, paste the command you copied from Bitbucket and press Return.
+Enter your Bitbucket password when the terminal asks for it. If you created an account by linking to Google, use your password for that account.
+
+If you experience a Windows password error:
+
+In some versions of Microsoft Windows operating system and Git you might see an error similar to the one in the following example.
+
+Windows clone password error example
+ $ git clone
+
+ https://emmap1@bitbucket.org/emmap1/bitbucketstationlocations.git 
+
+ Cloning into 'bitbucketspacestation'...
+
+ fatal: could not read
+
+ Password for 'https://emmap1@bitbucket.org': No such file or directory
+If you get this error, enter the following at the command line:
+
+ $ git config --global core.askpass
+Then go back to step 4 and repeat the clone process. The bash agent should now prompt you for your password. You should only have to do this once.
+At this point, your terminal window should look similar to this:
+
+ 
+$ cd ~/repos
 
 Bitbucket displays the Create a new repository page. Take some time to review the dialog's contents. With the exception of the Repository type, everything you enter on this page you can later change.
 $ git clone https://emmap1@bitbucket.org/emmap1/bitbucketstationlocations.git
